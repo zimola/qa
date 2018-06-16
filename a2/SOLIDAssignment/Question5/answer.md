@@ -1,4 +1,4 @@
-Violation: Dependency Inversion / Open Closed? 
+Violation: Open Closed? 
 
 Problem:  
 
