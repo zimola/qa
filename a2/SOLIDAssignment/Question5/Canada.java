@@ -1,14 +1,11 @@
-public class Canada implements ICountryGDPReport
+public class Canada extends Country implements ICountryGDPReport
 {
-	public String getAgriculture()
-	{
-		return "$50000000 CAD";
+	
+	Canada(){
+		agriculture = "150,000,000";
+		manufacturing = "200,000,000";
 	}
-
-	public String getManufacturing()
-	{
-		return "$100000 CAD";
-	}
+	
 	
 	public void PrintCountryGDPReport()
 	{
@@ -16,4 +13,6 @@ public class Canada implements ICountryGDPReport
 		System.out.println("   - Agriculture: " + getAgriculture());
 		System.out.println("   - Manufacturing: " + getManufacturing());
 	}
+	
 }
+
